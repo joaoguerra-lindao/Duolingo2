@@ -62,7 +62,7 @@ if (isset($_SESSION['usuario_logado'])) {
             <form method="POST" action="index.php">
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Murilo@sesi.br" required>
+                    <input type="email" name="email" id="email" placeholder="joao@sesi.br" required>
                 </div>
 
                 <div class="form-group">
