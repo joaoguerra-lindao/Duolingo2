@@ -192,3 +192,114 @@ td {
     border-radius: 4px;
     font-size: 0.85rem;
 }
+
+/* Formulário de Cadastro e Edição Inline */
+
+.form-card {
+
+    background-color: #f8fafc;
+
+    border: 1px solid #e2e8f0;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    margin-bottom: 25px;
+
+}
+ 
+.form-card h3 {
+
+    margin-bottom: 15px;
+
+    font-size: 1.1rem;
+
+    color: #1e293b;
+
+}
+ 
+.form-inline {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    align-items: flex-end;
+
+}
+ 
+.form-inline .form-group {
+
+    flex: 1;
+
+    min-width: 180px;
+
+    margin-bottom: 0;
+
+}
+ 
+.btn-group {
+
+    display: flex;
+
+    gap: 8px;
+
+}
+ 
+/* Novos estilos de botões */
+
+.btn-success {
+
+    background-color: #10b981;
+
+    color: #ffffff;
+
+}
+ 
+.btn-success:hover {
+
+    background-color: #059669;
+
+}
+ 
+.btn-warning {
+
+    background-color: #f59e0b;
+
+    color: #ffffff;
+
+}
+ 
+.btn-warning:hover {
+
+    background-color: #d97706;
+
+}
+ 
+.btn-secondary {
+
+    background-color: #64748b;
+
+    color: #ffffff;
+
+}
+ 
+.btn-secondary:hover {
+
+    background-color: #475569;
+
+}
+ 
+.btn-sm {
+
+    padding: 6px 12px;
+
+    font-size: 0.8rem;
+
+    width: auto;
+
+}
+ 
